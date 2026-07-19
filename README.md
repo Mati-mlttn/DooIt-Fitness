@@ -18,15 +18,21 @@ The main goal is to offer a free, subscription-free, and offline option so that 
 <br>
 
 <div align="center">
-  <img src="docs/assets/screenshot-1.png" width="30%" hspace="8" />
-  <img src="docs/assets/screenshot-2.png" width="30%" hspace="8" />
-  <img src="docs/assets/screenshot-3.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-1.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-2.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-3.png" width="30%" hspace="8" />
 
-<br>
+  <br>
 
-  <img src="docs/assets/screenshot-4.png" width="30%" hspace="8" />
-  <img src="docs/assets/screenshot-5.png" width="30%" hspace="8" />
-  <img src="docs/assets/screenshot-6.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-4.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-5.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-6.png" width="30%" hspace="8" />
+
+  <br>
+
+  <img src="docs/assets/screen-7.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-8.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-9.png" width="30%" hspace="8" />
 </div>
 
 <br>
