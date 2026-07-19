@@ -15,15 +15,18 @@ The main goal is to offer a free, subscription-free, and offline option so that 
 
 ### Screenshots
 
+<br>
+
 <div align="center">
-<div>
-<img src="docs/assets/screenshot-1.png" width="30%" />
-<img src="docs/assets/screenshot-2.png" width="30%" />
-<img src="docs/assets/screenshot-3.png" width="30%" />
-<img src="docs/assets/screenshot-4.png" width="30%" />
-<img src="docs/assets/screenshot-5.png" width="30%" />
-<img src="docs/assets/screenshot-6.png" width="30%" />
-</div>
+  <img src="docs/assets/screenshot-1.png" width="30%" hspace="8" />
+  <img src="docs/assets/screenshot-2.png" width="30%" hspace="8" />
+  <img src="docs/assets/screenshot-3.png" width="30%" hspace="8" />
+
+<br>
+
+  <img src="docs/assets/screenshot-4.png" width="30%" hspace="8" />
+  <img src="docs/assets/screenshot-5.png" width="30%" hspace="8" />
+  <img src="docs/assets/screenshot-6.png" width="30%" hspace="8" />
 </div>
 
 <br>
@@ -48,7 +51,7 @@ Get the latest APK from the Releases section.
 
 ### Privacy Policy
 
-To learn more about our privacy policy, please click the link. 
+To learn more about our privacy policy, please click the link.
 
 [![Privacy Policy](https://img.shields.io/badge/Privacy%20Policy-Notion-black?logo=notion)](https://app.notion.com/p/Privacy-Policy-Doo-It-2ae0fe38e5c78041abd7f3269a35583f?source=copy_link)
 
