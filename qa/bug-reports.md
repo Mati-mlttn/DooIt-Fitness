@@ -27,7 +27,7 @@ Los campos deberían limitar la cantidad máxima de caracteres permitidos.
 Los nombres excesivamente largos pueden generar problemas de visualización y afectar la experiencia de usuario.
 
 ### Evidencia
-![Nombre de rutina excesivamente largo](/bug-artifacts/bug-length.jpg)
+![Nombre de rutina excesivamente largo](./bug-artifacts/bug-length.jpg)
 
 ## BUG-002 - No existe límite de caracteres para nombres de ejercicios personalizados
 
@@ -58,4 +58,4 @@ Los campos deberían limitar la cantidad máxima de caracteres permitidos.
 Los nombres excesivamente largos pueden generar problemas de visualización y afectar la experiencia de usuario.
 
 ### Evidencia
-![Nombre de rutina excesivamente largo](/bug-artifacts/bug-length.jpg)
+![Nombre de ejercicio excesivamente largo](./bug-artifacts/bug-length.jpg)
