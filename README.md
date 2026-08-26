@@ -64,9 +64,9 @@ To learn more about our privacy policy, please click the link.
 ## License
 
 This project is proprietary software.
-The source code is not publicly available.
+
 All rights reserved.
 
 <div align="center">
-<img src="docs/assets/screen-features.png" />
+<img src="docs/assets/screen-features-EN.png" />
 </div>
