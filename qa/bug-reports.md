@@ -1,8 +1,11 @@
 ## BUG-001 - No existe límite de caracteres para nombres de rutinas
 
+- **Detectado** en: v1.0.0 build 24
+- **Corregido** en: v1.0.0 build 25
+
 - **Severity**: Medium
 - **Priority**: Medium
-- **Estado**: Open
+- **Estado**: Fixed
 
 ### Descripción
 Los campos de nombre de rutinas no poseen un límite máximo de caracteres.
@@ -27,13 +30,21 @@ Los campos deberían limitar la cantidad máxima de caracteres permitidos.
 Los nombres excesivamente largos pueden generar problemas de visualización y afectar la experiencia de usuario.
 
 ### Evidencia
+- Captura antes de la corrección:
 ![Nombre de rutina excesivamente largo](./bug-artifacts/bug-length.jpg)
+
+- Captura después de la corrección:
+![Nombre de rutina corregido](./bug-artifacts/bug-name-length-fixed.jpg)
+
 
 ## BUG-002 - No existe límite de caracteres para nombres de ejercicios personalizados
 
+- **Detectado** en: v1.0.0 build 24
+- **Corregido** en: v1.0.0 build 25
+
 - **Severity**: Medium
 - **Priority**: Medium
-- **Estado**: Open
+- **Estado**: Fixed
 
 ### Descripción
 Los campos de nombre de ejercicios personalizados no poseen un límite máximo de caracteres.
@@ -58,4 +69,8 @@ Los campos deberían limitar la cantidad máxima de caracteres permitidos.
 Los nombres excesivamente largos pueden generar problemas de visualización y afectar la experiencia de usuario.
 
 ### Evidencia
+- Captura antes de la corrección:
 ![Nombre de ejercicio excesivamente largo](./bug-artifacts/bug-length.jpg)
+
+- Captura después de la corrección:
+![Nombre de ejercicio corregido](./bug-artifacts/bug-exercisename-length-fixed.jpg)

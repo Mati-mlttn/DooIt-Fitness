@@ -2,7 +2,7 @@
 
 **Prioridad:** Media
 
-**Estado:** Proposed
+**Estado:** Implemented
 
 ### Descripción
 
@@ -31,19 +31,22 @@ Un límite explícito permite controlar valores extremos, simplifica las validac
 
 * El usuario puede configurar entre 1 y 10 sets por ejercicio.
 * Al alcanzar 10 sets, no es posible agregar un set adicional.
-* Los sets configurados previamente se mantienen sin modificaciones.
 * La interfaz comunica correctamente que se alcanzó el límite máximo.
 
 ### Casos de prueba asociados
 
-* 10 sets → permitido.
-* 11 sets → rechazado.
+* Añadir 10 sets → se muestran correctamente.
+* Intentar añadir el set 11 → no se agrega y permanecen los 10 anteriores.
+
+### Resultado
+
+La mejora fue implementada correctamente y el límite máximo quedó establecido en 10 sets por ejercicio.
 
 ## ENH-002 - Definir límite máximo de repeticiones por sets
 
 **Prioridad:** Media
 
-**Estado:** Proposed
+**Estado:** Implemented
 
 ### Descripción
 
@@ -62,7 +65,7 @@ Definir una cantidad máxima de repeticiones por sets y evitar que el usuario pu
 Por ejemplo:
 
 * Mínimo: 5 repeticiones
-* Máximo: 30 repeticiones
+* Máximo: 20 repeticiones
 
 ### Justificación
 
@@ -70,25 +73,29 @@ Un límite explícito permite controlar valores extremos, simplifica las validac
 
 ### Criterios de aceptación
 
-* El usuario puede configurar entre 5 y 30 repeticiones por sets.
+* El usuario puede configurar entre 5 y 20 repeticiones por sets.
 * La interfaz comunica correctamente que se alcanzó el límite máximo.
 
 ### Casos de prueba asociados
 
-* 30 reps → permitido.
-* 31 reps → rechazado.
+* Configurar 20 repeticiones → valor permitido.
+* Intentar bajar de 5 o superar 20 → el valor permanece dentro del rango.
+
+### Resultado
+
+La mejora fue implementada correctamente, el límite máximo quedó establecido en 20 reps por sets y el límite mínimo en 5 reps.
 
 ## ENH-003 - Introducir por teclado la cantidad de repeticiones
 
 **Prioridad:** Media
 
-**Estado:** Proposed
+**Estado:** Implemented
 
 ### Descripción
 
 Actualmente solo es posible agregar repeticiones pulsando los botones "+" y "-".
 
-La funcionalidad opera correctamente, pero pulsar repetidas veces el boton "+" o "-" hasta alcanzar el límite máximo es frustrante para el usuario.
+La funcionalidad opera correctamente, pero pulsar repetidas veces el botón "+" o "-" hasta alcanzar el límite máximo es frustrante para el usuario.
 
 ### Situación actual
 
@@ -104,17 +111,21 @@ Por ejemplo:
 
 ### Justificación
 
-Proporsiona una forma más rápida y menos frustrante para el usuario de configurar la cantidad de repeticiones que pulsar constantemente un boton para lleagr al límite.
+Proporciona una forma más rápida y menos frustrante para el usuario de configurar la cantidad de repeticiones que pulsar constantemente un botón para llegar al límite.
 
 ### Criterios de aceptación
 
 * Al introducir un valor por teclado, el recuadro de repeticiones se actualiza instantáneamente.
-* El usuario puede configurar entre 5 y 30 repeticiones por sets.
+* El usuario puede configurar entre 5 y 20 repeticiones por sets.
 * El usuario puede seguir utilizando los botones "+" y "-" para ajustar la cantidad de repeticiones.
-* No se permite introducir valores fuera del rango permitido (5-30).
+* No se permite introducir valores fuera del rango permitido (5-20).
 
 ### Casos de prueba asociados
 
 * Introducir una cantidad válida de repeticiones mediante el teclado.
 * Intentar introducir un valor inferior al mínimo: 4 repeticiones.
 * Intentar introducir caracteres no numéricos.
+
+### Resultado
+
+La mejora fue implementada correctamente y el usuario puede configurar las repeticiones mediante teclado o utilizando los controles "+" y "-".

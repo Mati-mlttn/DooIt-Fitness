@@ -20,6 +20,7 @@ Las pruebas cubren principalmente:
 - Compartir rutinas
 - Cambio de idioma
 - Cambio de sistema de medida
+- Perfil y cálculo de IMC
 
 ## Documentation
 
@@ -28,3 +29,4 @@ Las pruebas cubren principalmente:
 - [Bug Reports](./bug-reports.md)
 - [Exploratory Testing](./exploratory-testing.md)
 - [Regression Checklist](./regression-checklist.md)
+- [Test Summary](./test-summary.md)

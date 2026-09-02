@@ -17,6 +17,7 @@ Verificar que las principales funcionalidades de Doo It! funcionen correctamente
 - Notificaciones
 - Sistema de medida
 - Multi Idioma
+- Perfil y cálculo de IMC
 
 ## Fuera de alcance
 

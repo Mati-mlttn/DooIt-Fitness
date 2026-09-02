@@ -961,3 +961,323 @@ ___
   - Los textos continúan mostrándose en inglés.
   - No se restablece automáticamente el idioma español.
   - La opción "Inglés" permanece seleccionada en la configuración de idioma.
+
+  ___
+## TC-ENH-001 - Añadir 10 sets a un ejercicio
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que sea posible configurar hasta 10 sets en un ejercicio.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Cantidad de sets: 10
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Pulsar "Añadir set" hasta completar 10 sets.
+  
+### Resultado esperado
+  
+  - El ejercicio "Chain Press" queda configurado con 10 sets.
+  - Los 10 sets se muestran correctamente.
+  - El botón "Añadir set" se deshabilita después de alcanzar 10 sets.
+  
+## TC-ENH-002 - Intentar añadir más de 10 sets
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Negativo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que no sea posible superar el límite de 10 sets por ejercicio.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Cantidad máxima de sets: 10
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Pulsar "Añadir set" hasta completar 10 sets.
+  7. Intentar añadir un nuevo set.
+  
+### Resultado esperado
+  
+  - El botón "Añadir set" se deshabilita al alcanzar 10 sets.
+  - No se agrega el set número 11.
+  - Los 10 sets configurados se mantienen sin modificaciones.
+  
+## TC-ENH-003 - Configurar los límites de repeticiones
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que sea posible configurar entre 5 y 20 repeticiones por set.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Set 1: 5 repeticiones
+  - Set 2: 20 repeticiones
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Configurar 5 repeticiones en el primer set.
+  7. Configurar 20 repeticiones en el segundo set.
+  
+### Resultado esperado
+  
+  - El primer set queda configurado con 5 repeticiones.
+  - El segundo set queda configurado con 20 repeticiones.
+  
+## TC-ENH-004 - Intentar superar los límites de repeticiones
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Negativo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que no sea posible configurar menos de 5 ni más de 20 repeticiones por set.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Límite mínimo: 5 repeticiones
+  - Límite máximo: 20 repeticiones
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Configurar 5 repeticiones en el primer set.
+  7. Pulsar nuevamente el botón "-".
+  8. Configurar 20 repeticiones en el segundo set.
+  9. Pulsar nuevamente el botón "+".
+  
+### Resultado esperado
+  
+  - El primer set se mantiene en 5 repeticiones.
+  - El segundo set se mantiene en 20 repeticiones.
+  - Los botones "-" y "+" se deshabilitan al alcanzar sus respectivos límites.
+  
+## TC-ENH-005 - Introducir repeticiones mediante el teclado
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que sea posible introducir una cantidad válida de repeticiones mediante el teclado.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Repeticiones: 12
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Pulsar el campo de repeticiones del primer set.
+  7. Introducir "12" mediante el teclado.
+  8. Pulsar el botón "+".
+  9. Pulsar el botón "-".
+  
+### Resultado esperado
+  
+  - El campo se actualiza a 12 repeticiones.
+  - El botón "+" aumenta el valor a 13.
+  - El botón "-" reduce nuevamente el valor a 12.
+  
+## TC-ENH-006 - Introducir valores no permitidos mediante el teclado
+  
+  **Prioridad:** Media
+  
+  **Tipo:** Funcional / Negativo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que el campo de repeticiones no acepte valores fuera del rango ni caracteres no numéricos.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla rutinas.
+  
+### Datos de prueba
+  
+  - Nombre de rutina: Push Day
+  - Ejercicio: Chain Press
+  - Valor inferior: 4
+  - Valor superior: 21
+  - Caracteres no numéricos: abc
+  
+### Pasos
+  
+  1. Pulsar el botón "+".
+  2. Seleccionar "Rutina de fuerza".
+  3. Introducir el nombre "Push Day".
+  4. Pulsar el botón de confirmación.
+  5. Buscar y seleccionar el ejercicio "Chain Press".
+  6. Intentar introducir "4" en el campo de repeticiones del primer set.
+  7. Intentar introducir "21" en el campo de repeticiones del segundo set.
+  8. Intentar introducir "abc" en el campo de repeticiones del tercer set.
+  
+### Resultado esperado
+  
+  - El valor 4 no es aceptado.
+  - El valor 21 no es aceptado.
+  - Los caracteres no numéricos no son aceptados.
+  - Los campos mantienen valores dentro del rango permitido entre 5 y 20 repeticiones.
+  
+___
+## TC-PROFILE-001 - Ingresar peso del usuario
+  
+  **Prioridad:** Alta
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que sea posible ingresar y guardar el peso del usuario.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla perfil.
+  - La aplicación utiliza el sistema métrico.
+  
+### Datos de prueba
+  
+  - Peso: 70 kg
+  
+### Pasos
+  
+  1. Pulsar el campo de peso.
+  2. Introducir el valor "70".
+  3. Guardar los cambios.
+  
+### Resultado esperado
+  
+  - El peso se guarda correctamente.
+  - El valor 70 kg se muestra en el perfil.
+  
+## TC-PROFILE-002 - Ingresar altura del usuario
+  
+  **Prioridad:** Alta
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que sea posible ingresar y guardar la altura del usuario.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla perfil.
+  - La aplicación utiliza el sistema métrico.
+  
+### Datos de prueba
+  
+  - Altura: 170 cm
+  
+### Pasos
+  
+  1. Pulsar el campo de altura.
+  2. Introducir el valor "170".
+  3. Guardar los cambios.
+  
+### Resultado esperado
+  
+  - La altura se guarda correctamente.
+  - El valor 170 cm se muestra en el perfil.
+  
+## TC-PROFILE-003 - Actualizar card de IMC
+  
+  **Prioridad:** Alta
+  
+  **Tipo:** Funcional / Positivo
+  
+  **Estado:** Passed
+  
+  **Descripción:** Verificar que la card de IMC se actualice de acuerdo con el peso y la altura ingresados.
+  
+### Precondiciones
+  
+  - Usuario se encuentra en pantalla perfil.
+  - La aplicación utiliza el sistema métrico.
+  
+### Datos de prueba
+  
+  - Peso: 70 kg
+  - Altura: 170 cm
+  - IMC esperado: 24.2
+  
+### Pasos
+  
+  1. Ingresar un peso de 70 kg.
+  2. Ingresar una altura de 170 cm.
+  3. Guardar los cambios.
+  4. Revisar la sección de IMC.
+  
+### Resultado esperado
+  
+  - El IMC se calcula utilizando el peso y la altura ingresados.
+  - La card muestra un IMC de 24.2.
+  - La categoría y el diseño de la card se actualizan de acuerdo con el resultado obtenido.
