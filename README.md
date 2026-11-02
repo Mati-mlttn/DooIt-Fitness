@@ -4,11 +4,11 @@
 
 <br>
 
-# Doo It!
+# doit
 
 ### Plan your strength and cardio workouts
 
-Doo it! is an offline mobile app that lets users create workout routines and track their exercises.
+doit is an offline mobile app that lets users create workout routines and track their exercises.
 The main goal is to offer a free, subscription-free, and offline option so that users can access it anytime, anywhere, since all the information is stored on the device.
 
 </div>
@@ -18,21 +18,27 @@ The main goal is to offer a free, subscription-free, and offline option so that 
 <br>
 
 <div align="center">
-  <img src="docs/assets/screen-1.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-2.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-3.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(1).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(2).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(3).png" width="30%" hspace="8" />
 
   <br>
 
-  <img src="docs/assets/screen-4.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-5.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-6.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(4).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(5).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(6).png" width="30%" hspace="8" />
 
   <br>
 
-  <img src="docs/assets/screen-7.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-8.png" width="30%" hspace="8" />
-  <img src="docs/assets/screen-9.png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(7).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(8).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(9).png" width="30%" hspace="8" />
+
+  <br>
+
+  <img src="docs/assets/screen-(10).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(11).png" width="30%" hspace="8" />
+  <img src="docs/assets/screen-(12).png" width="30%" hspace="8" />
 </div>
 
 <br>
