@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.png"  width=100 align="center">
+<img src="docs/assets/logo1.png"  width=100 align="center">
 
 <br>
 
@@ -74,5 +74,5 @@ This project is proprietary software.
 All rights reserved.
 
 <div align="center">
-<img src="docs/assets/screen-features-EN.png" />
+<img src="docs/assets/screen-features.png" />
 </div>
